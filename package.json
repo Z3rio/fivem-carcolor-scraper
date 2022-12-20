@@ -1,0 +1,33 @@
+{
+  "name": "fivem-carcolor-scraper",
+  "version": "1.0.0",
+  "description": "This is a tool made to scrape / save all vehicle colors in GTA as JSON, XML, Lua or JS.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Z3rio/fivem-carcolor-scraper.git"
+  },
+  "keywords": [
+    "fivem",
+    "car",
+    "color",
+    "vehicle",
+    "javascript",
+    "zerio"
+  ],
+  "author": "Zerio#0880",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Z3rio/fivem-carcolor-scraper/issues"
+  },
+  "homepage": "https://github.com/Z3rio/fivem-carcolor-scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "fs": "^0.0.1-security",
+    "inquirer": "^9.1.4",
+    "request-promise": "^4.2.6"
+  }
+}
